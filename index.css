@@ -1,0 +1,22 @@
+.cabecera {
+  background-image: url("bgh.jpg");
+  height: 300px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cabecera-botones {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.cabecera-botones a {
+  color: white;
+  text-decoration: none;
+}
